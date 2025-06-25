@@ -15,5 +15,7 @@ list1 = ['physics', 'chemistry', 1997, 2000]
 # del list1[2];
 # print ("After deleting value at index 2 : ")
 # print (list1)
-list_X = list + list1
-print(list + list1)
+print( list + list1 )
+print(list1 * 2)
+print( 1998 in list1)
+
