@@ -21,12 +21,3 @@
 # print( 1998 in list1)
 # print(list1[-3])
 
-#                          Methods on list
-# 1. append - to add element ( at end of list)
-list =['a','b','c','d','e']
-list.append('x')
-print(list)
-# 2 . insert - to add element at desired position 
-list.insert(2,'y')
-print(list)
-
