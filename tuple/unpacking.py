@@ -21,7 +21,7 @@ print(z)
 # 2.
 
 
-#                   Tuple methods
+#    _                Tuple methods
 #      1. index() - Returns the lowest index in tuple that obj appears , parameter is any obj of tuple
 tup2 = (10,2,3,3,3,3,3,3,3,3,3)
 print(tup2.index(3))

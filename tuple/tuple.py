@@ -12,7 +12,7 @@ print(tuple[3]) # using index
 print(tuple[-2]) # using negative index
 print(tuple[1:2])# using slicing method
 
-#                      updating tuples 
+#                       updating tuples ways
                     # 1. using concatenation
 # 2. converting in list then updating and then reconverting to tuples 
 # 3. using slice to get parts and adding them along with new elements in a new tuple

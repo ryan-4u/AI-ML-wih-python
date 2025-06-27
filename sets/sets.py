@@ -43,3 +43,33 @@ print(setA)
 # 2.  discard() - same as remove() , diff - dont produce error even if element is not present
 setA.discard(3)
 print(setA)
+# 3. pop() - no parameter , remove an arbitary element from set , give error if empty set
+setA.pop()
+print(setA)
+# 4. clear() - to remove all element and make that a empty set
+setA.clear()
+print(setA)
+
+# 5. difference_update() OR -= -> to remove common element of two set -> the parameters and 
+#                                 the set1 common element are removed and remaining set1's element 
+#                                 are returned and change is done in real set1
+set1 = {1,2,3,4,5,6,7}
+set2 = { 1,3}
+# set1 -= set2
+# print(set1)
+
+# 6. symmetric_difference or ^ -> return all element of set1 and set2 except for their commons 
+#                                 change is not done in real set1 , its a new resultant set
+set3 = set1.symmetric_difference(set2)
+print(set3)
+
+# 7. interection_update -> returns only common element of both set , modify set1
+# set1.intersection_update(set2)
+# print(set1)
+# 8. intersection() -> same as 7 , just not modify , its in a resultant set
+set4 = set1.intersection(set2)
+print(set4)
+
+# 9. symmetric_difference_update -> same as 6 just modify the actual set
+set1.symmetric_difference_update(set2)
+print(set1)
