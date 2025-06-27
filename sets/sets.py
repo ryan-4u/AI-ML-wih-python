@@ -73,3 +73,19 @@ print(set4)
 # 9. symmetric_difference_update -> same as 6 just modify the actual set
 set1.symmetric_difference_update(set2)
 print(set1)
+
+                                    #MORE METHODS
+#  .isdisjoint() -> Returns True if two sets have a null intersection.
+set7 = { 5,6,7,8}
+set8 = { 1,2,3,4,5,6}
+print(set7.isdisjoint(set8))
+# set1.issubset(set2) -> return true if set1 is a subset of set2
+set9 = {1,2,3}
+x = set9.issubset(set8)
+print(x)
+# set1.issuperset(set2) -> return true if set1 is superset of set2
+y = set8.issuperset(set9)
+print(y)
+# set1.difference(set2) -> return set1 with only distinct elements then set 2
+z = set7.difference(set8)
+print(z)
